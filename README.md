@@ -1,2 +1,3 @@
 # MagiaNaturalis-PublicArea
-Localization repository with issue tracking for MagiaNaturalis - Minecraft Mod and Thaumcraft 4 Addon
+Localization repository with issue tracking and wiki for MagiaNaturalis - Thaumcraft 4.2 Addon
+
