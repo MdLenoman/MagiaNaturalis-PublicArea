@@ -27,7 +27,6 @@ chat.magianaturalis:chest.resist=The Chest resists Your Attempt of Miniaturizati
 # Flavor Text & Tool Hint & Misc 
 flavor.magianaturalis:key.0=One to Open Them All...
 flavor.magianaturalis:key.1=One to Grant Access for Others...
-flavor.magianaturalis:chest=Obstinate and discriminating, protects its treasure.
 flavor.magianaturalis:banner=A Banner to mark our Presence.
 hint.magianaturalis:ctrl=<Press Ctrl>
 hint.magianaturalis:chest.items=Contains Treasure
@@ -37,8 +36,8 @@ hint.magianaturalis:vertical=Vertical
 
 # ITEM NAMES
 item.magianaturalis:researchLog.name=Research Log
-item.magianaturalis:quicksilverStone.name=Quicksilver Alchemist Stone
-item.magianaturalis:mutationStone.name=Phenomorphous Catalyst Stone
+item.magianaturalis:alchemicalStone.1.name=Quicksilver Alchemist Stone
+item.magianaturalis:alchemicalStone.0.name=Phenomorphous Catalyst Stone
 item.magianaturalis:devTool.name=Misc Dev Tool
 item.magianaturalis:key.0.name=Key of Unraveling
 item.magianaturalis:key.1.name=Key of Endorsing
@@ -63,6 +62,9 @@ tile.magianaturalis:arcaneWood.gwPlanks.name=Greatwood Planks
 tile.magianaturalis:arcaneWood.gwOrn.name=Greatwood Ornament
 tile.magianaturalis:arcaneWood.swPlanks.0.name=Silverwood Planks
 tile.magianaturalis:arcaneWood.swPlanks.1.name=Silverwood Planks
+tile.magianaturalis:arcaneWood.gwGoldOrn.0.name=Greatwood Gold Ornament
+tile.magianaturalis:arcaneWood.gwGoldOrn.1.name=Greatwood Gold Ornament
+tile.magianaturalis:arcaneWood.gwGoldTrim.name=Greatwood Gold Trim
 tile.magianaturalis:banner.name=Magia Naturalis Banner
 
 # ENTITIY NAMES
@@ -70,70 +72,69 @@ entity.taintBreeder.name=Taint Breeder
 entity.magia_naturalis.evilTrunk.name=Evil Trunk
 
 # RESEARCH
-tc.research_category.magia_naturalis=Magia Naturalis
+tc.research_category.MagiaNaturalis=Magia Naturalis
 
-mn.research_name.INTRO=Philosophy of the Natural
-mn.research_text.INTRO=One must know its Nature in order to comprehend ones Life
-mn.research_page.INTRO.1=The meaning of life has always been one of the greatest fascinations of brilliant minds, as they try to discover some purpose to the chaos they find themselves in.<BR>The question of whether life inherently has some predetermined purpose is much more interesting when several Entities claim to be the only true god to have created life.<BR>However, some thaumaturges explore other possibilities for the nature of existence, and their studies inevitably lead them to the grand discipline of Magia Naturalis.
-mn.research_page.INTRO.2=While this discipline is very controversial and deemed unorthodox in some subcategories, it implies the possibility of manipulating the nature of the living and the material they are composed of.<BR>Some naturalists, known for their insane experiments such as speaking with dead beings or mutating plants, claim to have discovered the systems that might have once led to our own existence.
+mn.research_name.INTRO=Inherent Law
+mn.research_text.INTRO=Knowing the Nature of Things in order to comprehend the Nature of Their existence
+mn.research_page.INTRO.1=All Thaumaturges  can manipulate the Essence of Magic we now call Vis, but few like yourself have managed to look past Corruption and Darkness. Your deep connection with natural Flux and its Primal Occurrences have lead you to understand the real Beauty of this material World.<BR>Fellow Naturalists claim to be able to manipulate the Fabrics of Life itself, Nature and Creatures. They believe to have discovered our nature of existence....
+
+mn.research_name.CARPENTRY=Woods
+mn.research_text.CARPENTRY=Building Blocks
+mn.research_page.CARPENTRY.1=Tired of always using the same magical Wood for building you decided to simply carve on it. A couple of etchings here, a bit of gold there, sticking together Slabs and the Result was better than anything you ever imagined.
 
 mn.research_name.TRANSCRIBINGTABLE=Transcribing Research
 mn.research_text.TRANSCRIBINGTABLE=Of Logging Fundamental Knowledge
-mn.research_page.TRANSCRIBINGTABLE.1="A magic feather dances across the Table's counter top. It dips its head in the ethereal knowledge formed by Matter Deconstruction. Line by line letters form transcribing the lingering knowledge into physical form." - Unknown Poet<BR>Collects Research Points of Deconstruction Tables into the Research Log. Looks for up to 8 DT placed around the TT with a 1 block gap between any Table.
+mn.research_page.TRANSCRIBINGTABLE.1="A magic feather dances across the Table's counter top. It dips its head in the ethereal knowledge formed by Matter Deconstruction. Line by line letters form transcribing the lingering knowledge into physical form." - Unknown Poet
 
 mn.research_name.RESEARCH_LOG=Research Log
 mn.research_text.RESEARCH_LOG=Collecting Knowledge for Anyone
-mn.research_page.RESEARCH_LOG.1=Allows you to collect the Research Points of Deconstruction Tables. Anyone can read the Log in order to gain the RP. 
+mn.research_page.RESEARCH_LOG.1=This thick Tome can store Research Points as Words written down with magical Scribing Tools. If Anyone reads this Book they gain all Research Points contained within. The words disappear from the pages leaving behind a blank Research Log.
 
 mn.research_name.KEY_SPECIAL=Thaumium Key
-mn.research_text.KEY_SPECIAL=One to Rule them All
+mn.research_text.KEY_SPECIAL=One to Rule them All...
 mn.research_page.KEY_SPECIAL.1=This Key grants Access for the Bound Player to any Tile owned by the Key Forger.
 mn.research_page.KEY_SPECIAL.2=This Key adds a list of players to the access list of the Tile owned by the Bound Player or Key Forger.
 
 mn.research_name.ARCANE_CHEST=Arcane Chest
-mn.research_text.ARCANE_CHEST=Personal Storage
-mn.research_page.ARCANE_CHEST.1=Crafted from Greatwood or Silverwood, this Arcane Chest holds and protects its content against almost anything. Hit it with a wand to pick it up with its contents intact.
+mn.research_text.ARCANE_CHEST=Obstinate and discriminating, protects its treasure
+mn.research_page.ARCANE_CHEST.1=Crafted from Greatwood or Silverwood, this Arcane Chest holds and protects its content against almost anything. On the other Hand the Chest has a Brain which allows to add People to a Access List.<BR>Carefully use your Wand to shrink the Chest in order to retain all stored Items and its Access List.
 
 mn.research_name.GOGGLES_DARK=Dark Crystal Goggles
-mn.research_text.GOGGLES_DARK=Glowing Red Eyes
+mn.research_text.GOGGLES_DARK=I see Your glowing Red Eyes
 mn.research_page.GOGGLES_DARK.1=Crafted from Spider Eyes and Dark Crystals, these Goggles provide peering Sight that is unaffected by Blindness and grants the player the ability to see the Shapes of Invisible Beings.
 
 mn.research_name.SPECTACLES=Spectacles
 mn.research_text.SPECTACLES=Sharper Sight
-mn.research_page.SPECTACLES.1=Percieve every little detail without the help of specific Tools. Node Types are displayed, as wellas Essentia Suction.
+mn.research_page.SPECTACLES.1=Assess Aura Node Types and Modifiers without a Thaumometer. Discover who owns Arcane Doors, Glass or Chests.
 
 mn.research_name.FOCUS_BUILD=Focus Of Construction
 mn.research_text.FOCUS_BUILD=Grand Architecture
-mn.research_page.FOCUS_BUILD.1=While the Shovel of the Earthmover already posessed a slight potential at building in a bigger manner, you have refined and expanded the shear Potential to its maximum. This Masterpiece of Focus etching has brought forth a Tool befitting a Grand Architect.<BR>Check Controls Menu for all Key-Bindings.<BR>V or Ctrl + V -> toggle mode/shape
+mn.research_page.FOCUS_BUILD.1=While the Shovel of the Earthmover already possessed a slight potential at building in a bigger manner, you have refined and expanded the shear Potential to its maximum. This Masterpiece of Focus etching has brought forth a Tool befitting a Grand Architect.<BR>'V' or 'Ctrl + V' -> toggle mode/shape<BR> '+' or '-' -> to increase/decrease size<BR>'Pick Block Button' -> pick block for default mode<BR>Check Wiki for more precise and better explanation
 
 mn.research_name.JAR_PRISON=Entity in a Jar
 mn.research_text.JAR_PRISON=Minimized Pets
-mn.research_page.JAR_PRISON.1=Shrink and Seal your lovable Friends and Foes in this Warded Jar. Watch them in their minimized form always hovering inside and turning towards you, as if they wanted to tell you something.<BR> Right Click with Wand to release the Entity.
+mn.research_page.JAR_PRISON.1=Shrink and Seal your lovable Friends and Foes in this Warded Jar. Watch them in their minimized form always hovering inside and turning towards you, as if they wanted to tell you something.<BR>Carefully tap the Jar with a Wand to break the Warded Glass and release the trapped Being.
 
 mn.research_name.STONE_PHENO=Phenomorphous Stone
 mn.research_text.STONE_PHENO=Morphing the Visual
-mn.research_page.STONE_PHENO.1=Change the appearance of Blocks such as Wool, Hardened Clay, Wood, Logs and Stone Bricks.
+mn.research_page.STONE_PHENO.1=Change the appearance of Blocks such as Wool, Hardened Clay, Wood, Logs and Stone Bricks. All phenomorphable block are highlighted when looking at them simply click the block to swap it appearance. Sneak to rotate Logs & Stairs.
 
 mn.research_name.STONE_QUICKSILVER=Quicksilver Stone
 mn.research_text.STONE_QUICKSILVER=Quickening Potion Effects
-mn.research_page.STONE_QUICKSILVER.1=Shortens and condense the Effect of Potion Effects at the same time. Makes the Effect Stronger, but last shorter. Needs Glowstone to opperate.
+mn.research_page.STONE_QUICKSILVER.1=Shortens and condenses the Effects of Potions at the same time. Makes the Effect Stronger, but last shorter. Needs Glowstone to operate.
 
-mn.research_name.EVIL_TRUNK=Vicious Travelling Trunks
+mn.research_name.EVIL_TRUNK=Vicious Traveling Trunks
 mn.research_text.EVIL_TRUNK=Infusing Souls into Objects
-mn.research_page.EVIL_TRUNK.1=The more warped the Mind is, the more obscure Thoughts surface and one such Idea was to give your cute Travelling Trunk a Soul. Undoubtedly the Trunk got more lively, but it seems to reflect the warped Mind of the Creator.
+mn.research_page.EVIL_TRUNK.1=The more warped the Mind is, the more obscure Thoughts surface and such one was to give your cute Traveling Trunk a Soul. Undoubtedly the Trunk got more lively, but it seems to reflect the warped Mind of the Creator.
 
 mn.research_name.ENDER_POUCH=Enderpouch
 mn.research_text.ENDER_POUCH=Extradimensional Storage
-mn.research_page.ENDER_POUCH.1=Open Enderchest Storage or access any Foci stored with your Wand.
+mn.research_page.ENDER_POUCH.1=This Infused Pouch allows the possessor to access his private Storage anywhere he desires. Any Foci stored inside is fully accessible with a Wand.
 
 mn.research_name.SICKLE_THAUM=Thaumium Sickle
 mn.research_text.SICKLE_THAUM=Reaping Crops
-mn.research_page.SICKLE_THAUM.1=Destroys Crops and Plants in a small area. Also works on Sheep.
+mn.research_page.SICKLE_THAUM.1=Destroys Crops and Plants in a small radius of about 3x3x3 Blocks. Can harvest any Plants, Crops, Leaves, Web and other Vegetation and shear Entities such as Sheep.
 
 mn.research_name.SICKLE_ABUNDANCE=Sickle of Abundance
 mn.research_text.SICKLE_ABUNDANCE=Harvest Feast
-mn.research_page.SICKLE_ABUNDANCE.1=Harvest & Collect Vegetation in a large area. Also works on Sheeps. + More Drops.
-
-#mn.research_name.GEOCCULTISM=Geoccultism
-#mn.research_text.GEOCCULTISM=Transforming Regions through Obsidian Totems
-#mn.research_page.GEOCCULTISM.1=Observing and studying geographic regions and the ancient totems found in the center of unique regions you have discovered that regions can be transformed. The ancients seemed to use Obsidian Totems in combination with Aura Nodes in order to create artificial geo-poles that slowly converted the region around them to the desired result. You have discovered that using a nether star in a crystal cluster(similar to the TC3 one for merging nodes) on top of a obsidian totem and fueling it with certain types of metal you are able to transform the region to your will. Converting a 8x8 area costs about 9 ingots of a specific metal.
+mn.research_page.SICKLE_ABUNDANCE.1=Evolution of the Thaumium Sickle allowing the Possessor to harvest plants in an even larger radius with a inherent abundance comparable to a fortune level of 2 which includes increased drop chances for Greatwood and Silverwood Saplings. All the harvested Loot floats towards the player.
