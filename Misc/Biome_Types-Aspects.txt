@@ -1,0 +1,36 @@
+Aspect Tags of Biome Types added by Thaumcraft.
+Amount of Aspects are calculated by me with the TC Aura of Biome Types. (TC Aura ranges from 70-140)
+Aspect Amount = Math.round(aura * 2 / 100);
+
+------------------------------------------
+[HOT]            :	2x	[Ignis]
+[COLD]           :	2x	[Ordo]
+[SPARSE]         :	2x	[Perditio]
+[DENSE]          :	2x	[Ordo]
+[WET]            :	2x	[Aqua]
+[DRY]            :	2x	[Perditio]
+[SAVANNA]        :	2x	[Aer]
+[CONIFEROUS]     :	2x	[Terra]
+[JUNGLE]         :	2x	[Herba]
+[SPOOKY]         :	2x	[Spiritus]
+[DEAD]           :	1x	[Mortuus]
+[LUSH]           :	2x	[Herba]
+[NETHER]         :	2x	[Ignis]
+[END]            :	2x	[Vacuos]
+[MUSHROOM]       :	3x	[Ordo]
+[MAGICAL]        :	2x	[Praecantatio] // Thaumcraft returns no Aspect (null) for this one
+[OCEAN]          :	2x	[Aqua]
+[RIVER]          :	2x	[Aqua]
+[WATER]          :	2x	[Aqua]
+[MESA]           :	2x	[Ignis]
+[FOREST]         :	2x	[Terra]
+[PLAINS]         :	2x	[Aer]
+[MOUNTAIN]       :	2x	[Aer]
+[HILLS]          :	2x	[Aer]
+[SWAMP]          :	2x	[Perditio]
+[SANDY]          :	2x	[Terra]
+[SNOWY]          :	2x	[Ordo]
+[WASTELAND]      :	2x	[Perditio]
+[BEACH]          :	2x	[Terra]
+[DESERT]         :	2x	[Ignis]
+[FROZEN]         :	2x	[Ordo]

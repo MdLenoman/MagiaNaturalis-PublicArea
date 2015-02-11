@@ -1,0 +1,298 @@
+Biome Compositon based on Aspect Tags of Biome Types.
+
+----------------------------------------------------
+Biome: Ocean
+[OCEAN]          :	2x	[Aqua]
+----------------------------------------------------
+Biome: Plains
+[PLAINS]         :	2x	[Aer]
+----------------------------------------------------
+Biome: Desert
+[HOT]            :	2x	[Ignis]
+[DRY]            :	2x	[Perditio]
+[SANDY]          :	2x	[Terra]
+----------------------------------------------------
+Biome: Extreme Hills
+[MOUNTAIN]       :	2x	[Aer]
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: Forest
+[FOREST]         :	2x	[Terra]
+----------------------------------------------------
+Biome: Taiga
+[COLD]           :	2x	[Ordo]
+[CONIFEROUS]     :	2x	[Terra]
+[FOREST]         :	2x	[Terra]
+----------------------------------------------------
+Biome: Swampland
+[WET]            :	2x	[Aqua]
+[SWAMP]          :	2x	[Perditio]
+----------------------------------------------------
+Biome: River
+[RIVER]          :	2x	[Aqua]
+----------------------------------------------------
+Biome: Hell
+[HOT]            :	2x	[Ignis]
+[DRY]            :	2x	[Perditio]
+[NETHER]         :	2x	[Ignis]
+----------------------------------------------------
+Biome: Sky
+[COLD]           :	2x	[Ordo]
+[DRY]            :	2x	[Perditio]
+[END]            :	2x	[Vacuos]
+----------------------------------------------------
+Biome: FrozenOcean
+[COLD]           :	2x	[Ordo]
+[OCEAN]          :	2x	[Aqua]
+[SNOWY]          :	2x	[Ordo]
+----------------------------------------------------
+Biome: FrozenRiver
+[COLD]           :	2x	[Ordo]
+[RIVER]          :	2x	[Aqua]
+[SNOWY]          :	2x	[Ordo]
+----------------------------------------------------
+Biome: Ice Plains
+[COLD]           :	2x	[Ordo]
+[SNOWY]          :	2x	[Ordo]
+[WASTELAND]      :	2x	[Perditio]
+----------------------------------------------------
+Biome: Ice Mountains
+[COLD]           :	2x	[Ordo]
+[MOUNTAIN]       :	2x	[Aer]
+[SNOWY]          :	2x	[Ordo]
+----------------------------------------------------
+Biome: MushroomIsland
+[MUSHROOM]       :	3x	[Ordo]
+----------------------------------------------------
+Biome: MushroomIslandShore
+[MUSHROOM]       :	3x	[Ordo]
+[BEACH]          :	2x	[Terra]
+----------------------------------------------------
+Biome: Beach
+[BEACH]          :	2x	[Terra]
+----------------------------------------------------
+Biome: DesertHills
+[HOT]            :	2x	[Ignis]
+[DRY]            :	2x	[Perditio]
+[HILLS]          :	2x	[Aer]
+[SANDY]          :	2x	[Terra]
+----------------------------------------------------
+Biome: ForestHills
+[FOREST]         :	2x	[Terra]
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: TaigaHills
+[COLD]           :	2x	[Ordo]
+[CONIFEROUS]     :	2x	[Terra]
+[FOREST]         :	2x	[Terra]
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: Extreme Hills Edge
+[MOUNTAIN]       :	2x	[Aer]
+----------------------------------------------------
+Biome: Jungle
+[HOT]            :	2x	[Ignis]
+[DENSE]          :	2x	[Ordo]
+[WET]            :	2x	[Aqua]
+[JUNGLE]         :	2x	[Herba]
+----------------------------------------------------
+Biome: JungleHills
+[HOT]            :	2x	[Ignis]
+[DENSE]          :	2x	[Ordo]
+[WET]            :	2x	[Aqua]
+[JUNGLE]         :	2x	[Herba]
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: JungleEdge
+[HOT]            :	2x	[Ignis]
+[WET]            :	2x	[Aqua]
+[JUNGLE]         :	2x	[Herba]
+[FOREST]         :	2x	[Terra]
+----------------------------------------------------
+Biome: Deep Ocean
+[OCEAN]          :	2x	[Aqua]
+----------------------------------------------------
+Biome: Stone Beach
+[BEACH]          :	2x	[Terra]
+----------------------------------------------------
+Biome: Cold Beach
+[COLD]           :	2x	[Ordo]
+[SNOWY]          :	2x	[Ordo]
+[BEACH]          :	2x	[Terra]
+----------------------------------------------------
+Biome: Birch Forest
+[FOREST]         :	2x	[Terra]
+----------------------------------------------------
+Biome: Birch Forest Hills
+[FOREST]         :	2x	[Terra]
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: Roofed Forest
+[DENSE]          :	2x	[Ordo]
+[SPOOKY]         :	2x	[Spiritus]
+[FOREST]         :	2x	[Terra]
+----------------------------------------------------
+Biome: Cold Taiga
+[COLD]           :	2x	[Ordo]
+[CONIFEROUS]     :	2x	[Terra]
+[FOREST]         :	2x	[Terra]
+[SNOWY]          :	2x	[Ordo]
+----------------------------------------------------
+Biome: Cold Taiga Hills
+[COLD]           :	2x	[Ordo]
+[CONIFEROUS]     :	2x	[Terra]
+[FOREST]         :	2x	[Terra]
+[HILLS]          :	2x	[Aer]
+[SNOWY]          :	2x	[Ordo]
+----------------------------------------------------
+Biome: Mega Taiga
+[COLD]           :	2x	[Ordo]
+[CONIFEROUS]     :	2x	[Terra]
+[FOREST]         :	2x	[Terra]
+----------------------------------------------------
+Biome: Mega Taiga Hills
+[COLD]           :	2x	[Ordo]
+[CONIFEROUS]     :	2x	[Terra]
+[FOREST]         :	2x	[Terra]
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: Extreme Hills+
+[SPARSE]         :	2x	[Perditio]
+[FOREST]         :	2x	[Terra]
+[MOUNTAIN]       :	2x	[Aer]
+----------------------------------------------------
+Biome: Savanna
+[HOT]            :	2x	[Ignis]
+[SPARSE]         :	2x	[Perditio]
+[SAVANNA]        :	2x	[Aer]
+[PLAINS]         :	2x	[Aer]
+----------------------------------------------------
+Biome: Savanna Plateau
+[HOT]            :	2x	[Ignis]
+[SPARSE]         :	2x	[Perditio]
+[SAVANNA]        :	2x	[Aer]
+[PLAINS]         :	2x	[Aer]
+----------------------------------------------------
+Biome: Mesa
+[MESA]           :	2x	[Ignis]
+[SANDY]          :	2x	[Terra]
+----------------------------------------------------
+Biome: Mesa Plateau F
+[SPARSE]         :	2x	[Perditio]
+[MESA]           :	2x	[Ignis]
+[SANDY]          :	2x	[Terra]
+----------------------------------------------------
+Biome: Mesa Plateau
+[MESA]           :	2x	[Ignis]
+[SANDY]          :	2x	[Terra]
+----------------------------------------------------
+Biome: Sunflower Plains
+[PLAINS]         :	2x	[Aer]
+----------------------------------------------------
+Biome: Desert M
+[HOT]            :	2x	[Ignis]
+[DRY]            :	2x	[Perditio]
+[PLAINS]         :	2x	[Aer]
+[SANDY]          :	2x	[Terra]
+----------------------------------------------------
+Biome: Extreme Hills M
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: Flower Forest
+[FOREST]         :	2x	[Terra]
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: Taiga M
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: Swampland M
+[WET]            :	2x	[Aqua]
+[SWAMP]          :	2x	[Perditio]
+----------------------------------------------------
+Biome: Ice Plains Spikes
+[COLD]           :	2x	[Ordo]
+[HILLS]          :	2x	[Aer]
+[SNOWY]          :	2x	[Ordo]
+----------------------------------------------------
+Biome: Jungle M
+[HOT]            :	2x	[Ignis]
+[WET]            :	2x	[Aqua]
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: JungleEdge M
+[HOT]            :	2x	[Ignis]
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: Birch Forest M
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: Birch Forest Hills M
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: Roofed Forest M
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: Cold Taiga M
+[COLD]           :	2x	[Ordo]
+[HILLS]          :	2x	[Aer]
+[SNOWY]          :	2x	[Ordo]
+----------------------------------------------------
+Biome: Mega Spruce Taiga
+[DENSE]          :	2x	[Ordo]
+[FOREST]         :	2x	[Terra]
+----------------------------------------------------
+Biome: Mega Spruce Taiga
+[DENSE]          :	2x	[Ordo]
+[FOREST]         :	2x	[Terra]
+----------------------------------------------------
+Biome: Extreme Hills+ M
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: Savanna M
+[HOT]            :	2x	[Ignis]
+[SPARSE]         :	2x	[Perditio]
+[DRY]            :	2x	[Perditio]
+[SAVANNA]        :	2x	[Aer]
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: Savanna Plateau M
+[HOT]            :	2x	[Ignis]
+[SPARSE]         :	2x	[Perditio]
+[DRY]            :	2x	[Perditio]
+[SAVANNA]        :	2x	[Aer]
+[HILLS]          :	2x	[Aer]
+----------------------------------------------------
+Biome: Mesa (Bryce)
+[HOT]            :	2x	[Ignis]
+[DRY]            :	2x	[Perditio]
+[PLAINS]         :	2x	[Aer]
+[SANDY]          :	2x	[Terra]
+----------------------------------------------------
+Biome: Mesa Plateau F M
+[HOT]            :	2x	[Ignis]
+[DRY]            :	2x	[Perditio]
+[FOREST]         :	2x	[Terra]
+[SANDY]          :	2x	[Terra]
+----------------------------------------------------
+Biome: Mesa Plateau M
+[HOT]            :	2x	[Ignis]
+[DRY]            :	2x	[Perditio]
+[PLAINS]         :	2x	[Aer]
+[SANDY]          :	2x	[Terra]
+----------------------------------------------------
+Biome: Tainted Land
+[MAGICAL]        :	2x	[Praecantatio]
+[WASTELAND]      :	2x	[Perditio]
+----------------------------------------------------
+Biome: Magical Forest
+[MAGICAL]        :	2x	[Praecantatio]
+[FOREST]         :	2x	[Terra]
+----------------------------------------------------
+Biome: Eerie
+[SPOOKY]         :	2x	[Spiritus]
+[MAGICAL]        :	2x	[Praecantatio]
+----------------------------------------------------
+Biome: Eldritch
+[SPOOKY]         :	2x	[Spiritus]
+[END]            :	2x	[Vacuos]
+[MAGICAL]        :	2x	[Praecantatio]
